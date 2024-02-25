@@ -548,9 +548,12 @@ a {
 .footer .row-top .list {
     margin-top: 42px;
 }
-.footer .list .item a,
-.footer .list .desc {
+.footer .list .item,
+.footer .desc {
     margin-top: 18px;
+}
+.footer .list .item a,
+.footer .desc {
     color: #7a7a7e;
     font-size: 1.6rem;
     font-weight: 400;
