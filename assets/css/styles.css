@@ -61,6 +61,7 @@ a {
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: calc(100vh - 90px);
     background: #e6f0ff;
 }
@@ -80,7 +81,7 @@ a {
 }
 
 .navbar ul a {
-    color: var(--primary-color);
+    color: #4f5361;
     font-size: 1.4rem;
     font-weight: 500;
     padding: 0px 14px;
@@ -105,22 +106,18 @@ a {
     opacity: 0.9;
 }
 
-.hero {
-    margin-top: 130px;
-}
-
 .info {
     width: 50.36%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.01em;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -128,7 +125,7 @@ a {
     line-height: 118.75%; /* 118.75% */
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
@@ -141,7 +138,7 @@ a {
     min-width: 170px;
 }
 
-.hero img {
+.hero-wrap img {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
