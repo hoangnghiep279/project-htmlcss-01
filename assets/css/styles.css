@@ -548,7 +548,7 @@ a {
 .footer .row-top .list {
     margin-top: 42px;
 }
-.footer .item,
+.footer .list .item,
 .footer .list .desc {
     margin-top: 18px;
     color: #7a7a7e;
